@@ -1,42 +1,50 @@
-.bg {
-  /* The image used */
-  background-image: url("../../../assets/img/banner.jpg");
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+ h3.header {
+   font-family: 'Changa', sans-serif;
+   font-size: 18px;
+   margin: 15px 0;
+ }
 
-.row {
-  margin: 25px 0;
-}
+ .bg {
+   /* The image used */
+   background-image: url("../../../assets/img/banner.jpg");
+   /* Full height */
+   height: 100%;
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
 
-.col-sm {
-  border-radius: 5px;
-  margin: 10px;
-}
+ .row {
+   margin: 25px 0;
+ }
 
-.col-sm:nth-child(1) {
-  box-shadow: 0px 0px 5px black;
-}
+ .col-sm {
+   border-radius: 5px;
+   margin: 10px;
+ }
 
-.about {
-  text-align: center;
-}
+ .about {
+   text-align: center;
+ }
 
-.about h3 {
-  font-family: 'Changa', sans-serif;
-  font-size: 18px;
-  margin: 15px 0;
-}
+ .about p {
+   line-height: 1.75;
+ }
 
-.about p {
-  line-height: 1.75;
-}
+ img.responsive {
+   width: 100%;
+   height: auto;
+ }
 
-img.responsive {
-  width: 100%;
-  height: auto;
-}
+ .whyus {
+   text-align: center;
+   background-color: #6BD2C8;
+   color: white;
+   padding: 5px;
+ }
+
+ .staff {
+   text-align: center;
+   margin: 25px 0;
+ }
