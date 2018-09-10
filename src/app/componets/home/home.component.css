@@ -1,50 +1,97 @@
- h3.header {
-   font-family: 'Changa', sans-serif;
-   font-size: 18px;
-   margin: 15px 0;
- }
+h3.header {
+  font-family: 'Changa', sans-serif;
+  font-size: 18px;
+  margin: 15px 0;
+}
 
- .bg {
-   /* The image used */
-   background-image: url("../../../assets/img/banner.jpg");
-   /* Full height */
-   height: 100%;
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+.bg {
+  /* The image used */
+  background-image: url("../../../assets/img/banner.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
- .row {
-   margin: 25px 0;
- }
+.row {
+  margin: 25px 0;
+}
 
- .col-sm {
-   border-radius: 5px;
-   margin: 10px;
- }
+.col-sm {
+  border-radius: 5px;
+  margin: 10px;
+}
 
- .about {
-   text-align: center;
- }
+.about {
+  text-align: center;
+}
 
- .about p {
-   line-height: 1.75;
- }
+.about p {
+  line-height: 1.75;
+}
 
- img.responsive {
-   width: 100%;
-   height: auto;
- }
+img.responsive {
+  width: 100%;
+  height: auto;
+}
 
- .whyus {
-   text-align: center;
-   background-color: #6BD2C8;
-   color: white;
-   padding: 5px;
- }
+.whyus {
+  text-align: center;
+  background-color: #6BD2C8;
+  color: white;
+  padding: 5px;
+}
 
- .staff {
-   text-align: center;
-   margin: 25px 0;
- }
+.staff {
+  margin: 25px 0;
+}
+
+.staff h3 {
+  text-align: center;
+}
+
+.staff .teacher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-overlay {
+  color: #f00b4b;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.staff .teacher .name p {
+  margin: 10px 0;
+  font-family: 'Changa', sans-serif;
+  font-weight: 600;
+}
+
+.courses {
+  text-align: center;
+  background-color: #6BD2C8;
+}
+
+.courses .course-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses .course-detail img {
+  border: 2px solid black;
+}
+
+.courses .course-detail p {
+  margin: 10px 0;
+  font-family: 'Changa', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  width: 50%;
+}
