@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componets/navbar/navbar.component';
 import { HomeComponent } from './componets/home/home.component';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 const appRoutes: Routes = [
   {
@@ -25,6 +26,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]
