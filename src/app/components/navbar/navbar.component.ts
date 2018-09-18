@@ -1,5 +1,5 @@
-import { PageScrollConfig, PageScrollService, PageScrollInstance } from 'ngx-page-scroll';
 import { Component, OnInit } from '@angular/core';
+import { HomeComponent } from '../home/home.component';
 
 
 @Component({
@@ -8,11 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
+  home: HomeComponent;
   constructor() {
   }
 
   ngOnInit() {
+  }
+
+  scrollToElement() {
+
+    this.home.scrollToElement();
   }
 
 }
