@@ -40,8 +40,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
-    AngularFireModule.initializeApp(environment.firebase, 'my-app-name'),
-    ,
+    AngularFireModule,
     AngularFireDatabaseModule,
     AngularFirestoreModule,
     AngularFireStorageModule,
